@@ -52,7 +52,7 @@ public class Metods {
         return result;
     }
 
-    private boolean sqrInt (int a ){
+    private boolean sqrInt (int a2 ){
         if (a==1) return true;
         for(int i=2;i<=a;i++)
        if( Math.pow(i,2)  == a)  return true;
